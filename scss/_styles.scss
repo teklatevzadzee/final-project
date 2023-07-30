@@ -1,0 +1,205 @@
+p,
+a,
+li {
+  font-family: "BPG Glaho Bold", sans-serif;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.c1 {
+  @include sb;
+  background-color: #fff;
+  height: 82px;
+  padding: 0 3% 0 3%;
+  a:link {
+    color: black;
+  }
+  a:visited {
+    color: #0ca296;
+  }
+  a:hover {
+    color: #ffc700;
+  }
+
+  img {
+    height: 32px;
+  }
+
+  ul {
+    @include se;
+    width: 500px;
+  }
+  .burgerbar {
+    display: none;
+  }
+}
+.c2 {
+  @include sb;
+  overflow: hidden;
+  width: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/30152526Hv1HRKYI.jpg);
+  background-color: #37556d;
+  padding: 15%;
+  gap: 40px;
+  .c3 {
+    @include cfs;
+    gap: 40px;
+    :first-child {
+      font-size: 100px;
+      color: #ffc700;
+      font-style: italic;
+    }
+    :last-child {
+      font-size: 80px;
+      color: #fff;
+    }
+  }
+  a {
+    align-self: flex-end;
+  }
+}
+.group {
+  @include sb;
+  padding-bottom: 0.3%;
+  padding-left: 0.2%;
+  align-items: center;
+  background-image: url(../images/Ellipse\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 58px;
+  height: 58px;
+  :first-child {
+    align-self: flex-end;
+  }
+  :last-child {
+    color: #fff;
+    font-size: 25px;
+    padding: 20px;
+  }
+}
+
+.sm {
+  width: 100%;
+  height: 900px;
+  background: linear-gradient(#00beac, #00beac00);
+  font-family: "ALK Life", sans-serif;
+  .c4 {
+    @include cl;
+
+    padding-top: 8%;
+    :first-child {
+      font-size: 50px;
+      color: #ffc700;
+      font-style: italic;
+    }
+    :nth-child(2) {
+      font-size: 80px;
+      color: #fff;
+    }
+    :last-child {
+      width: 670px;
+      font-size: 18px;
+      color: #044641;
+      text-align: center;
+      font-weight: 400;
+      line-height: normal;
+      padding-top: 2%;
+    }
+  }
+  .c5 {
+    @include se;
+    padding-top: 2%;
+    div {
+      width: 230px;
+      height: 350px;
+      border-radius: 10px;
+      @include cl;
+    }
+    .a1 {
+      transition: transform 0.4s;
+      background-image: url(../images/50.jpg);
+      @include bckcenter;
+    }
+    .a1:hover {
+      @include cursor;
+    }
+
+    .a2 {
+      transition: transform 0.4s;
+      background-image: url(../images/60.jpg);
+      background-position: right;
+      @include bckcenter;
+    }
+    .a2:hover {
+      @include cursor;
+    }
+    .a3 {
+      transition: transform 0.4s;
+      background-image: url(../images/70.jpg);
+      @include bckcenter;
+    }
+    .a3:hover {
+      @include cursor;
+    }
+    .a4 {
+      transition: transform 0.4s;
+      background-image: url(../images/80.jpg);
+      @include bckcenter;
+    }
+    .a4:hover {
+      @include cursor;
+    }
+    p {
+      font-size: 30px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    .c6 {
+      @include year;
+      background-color: #f9db62;
+    }
+    .c7 {
+      @include year;
+      background-color: #1da7bc;
+    }
+    .c8 {
+      @include year;
+      background-color: #c7dff5;
+    }
+    .c9 {
+      @include year;
+      background-color: #ba414a;
+    }
+  }
+}
+.greenbox {
+    width: 100%;
+    height: 300px;
+    background-color:  #003531;
+    @include se;
+    justify-content: space-around;
+    ul {
+        @include cfs;
+    }
+    li {
+        color: rgba(255, 255, 255, 0.80);
+        font-size: 16px;
+        font-weight: 200;
+        gap: 20px;
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+    :first-child {
+        color: #D0D0D0;
+        font-weight: 900;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
