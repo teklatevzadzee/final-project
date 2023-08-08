@@ -1,8 +1,7 @@
 p,
 a,
 li,
-label
-{
+label {
   font-family: "BPG Glaho Bold", sans-serif;
 }
 header {
@@ -453,19 +452,16 @@ header {
     background-repeat: no-repeat;
     background-size: contain;
     height: 480px;
-   display: flex;
-   justify-content: center;
-    
+    display: flex;
+    justify-content: center;
   }
   .mainfeedback {
     height: 480px;
     width: 300px;
     background-color: #f6f6f6;
     @include cl;
-    
-    
+
     // border-radius: 5%;
-    
   }
   form {
     @include cfs;
@@ -490,38 +486,37 @@ header {
     border-radius: 25px;
     padding: 0 30px;
     background-color: white;
-    border-color: #0CA296;
+    border-color: #0ca296;
     border-style: outset;
   }
   button {
     width: 80px;
     height: 35px;
     border-radius: 25px;
-    background-color:#f9db62;
+    background-color: #f9db62;
     border-color: white;
     font-size: 15px;
     line-height: 1.5;
     color: #fff;
-    margin:  0 auto;
+    margin: 0 auto;
   }
   button:hover {
     cursor: pointer;
   }
 }
 
-
-.about-us{
+.about-us {
   height: 100vh;
   width: 100%;
   padding-top: 10%;
   background: linear-gradient(#00beac, #00beac00);
   .pic {
     height: auto;
-    img{
-    width: 80%;
+    img {
+      width: 80%;
     }
   }
-  .about{
+  .about {
     width: 1130px;
     max-width: 85%;
     margin: 0 auto;
@@ -529,27 +524,64 @@ header {
     align-items: center;
     justify-content: space-around;
   }
-  .text{
+  .text {
     width: 540px;
-    h2{
+    h2 {
       font-size: 50px;
       font-weight: 600;
-    color: #ffc700;
+      color: #ffc700;
     }
-    p{
+    p {
       font-size: 18px;
       line-height: 25px;
       letter-spacing: 1px;
       color: #333333;
     }
   }
-
-
-
-
-
 }
-
+.news {
+  padding-bottom: 8%;
+  padding-top: 8%;
+  background: linear-gradient(#00beac, #00beac00);
+  a:link {
+    color: black;
+  }
+  a:visited {
+    color: #0ca296;
+  }
+  a:hover {
+    color: #f6f6f6;
+  }
+  h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #f5fffe;
+    padding-bottom: 3%;
+    @include center;
+    font-style: italic;
+  }
+  .newscont {
+    @include se;
+    img {
+      width: 25%;
+    }
+    .newsflex1 {
+      width: 30%;
+      height: 15rem;
+      background-color: #f9db62;
+      @include se;
+      .news2 {
+        width: 45%;
+        p {
+          font-size: 20px;
+          line-height: 25px;
+          letter-spacing: 1px;
+          color: #333333;
+        }
+      }
+    }
+  }
+}
 .greenbox {
   width: 100%;
   height: 300px;

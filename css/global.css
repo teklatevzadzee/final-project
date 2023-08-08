@@ -785,7 +785,7 @@ header {
   border-radius: 25px;
   padding: 0 30px;
   background-color: white;
-  border-color: #0CA296;
+  border-color: #0ca296;
   border-style: outset;
 }
 .sec3 button {
@@ -833,6 +833,58 @@ header {
 }
 .about-us .text p {
   font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  color: #333333;
+}
+
+.news {
+  padding-bottom: 8%;
+  padding-top: 8%;
+  background: linear-gradient(#00beac, rgba(0, 190, 172, 0));
+}
+.news a:link {
+  color: black;
+}
+.news a:visited {
+  color: #0ca296;
+}
+.news a:hover {
+  color: #f6f6f6;
+}
+.news h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #f5fffe;
+  padding-bottom: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+}
+.news .newscont {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+.news .newscont img {
+  width: 25%;
+}
+.news .newscont .newsflex1 {
+  width: 30%;
+  height: 15rem;
+  background-color: #f9db62;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+.news .newscont .newsflex1 .news2 {
+  width: 45%;
+}
+.news .newscont .newsflex1 .news2 p {
+  font-size: 20px;
   line-height: 25px;
   letter-spacing: 1px;
   color: #333333;
