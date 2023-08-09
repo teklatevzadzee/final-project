@@ -1,0 +1,238 @@
+@media (max-width: 1024px) {
+  .c1 {
+    .burgerbar {
+      display: block;
+    }
+    ul {
+      display: none;
+    }
+  }
+  .c2 {
+    .c3 {
+      :first-child {
+        font-size: 80px;
+      }
+      :last-child {
+        font-size: 60px;
+      }
+    }
+  }
+  .sm {
+    padding: 3%;
+    height: auto;
+    .c4 {
+      padding-top: 8%;
+      :first-child {
+        font-size: 50px;
+      }
+      :nth-child(2) {
+        font-size: 60px;
+      }
+      :last-child {
+        width: 570px;
+        font-size: 15px;
+      }
+    }
+    .c5 {
+      flex-wrap: wrap;
+      div {
+        width: 180px;
+        height: 250px;
+      }
+    }
+  }
+  .list1,
+  .list2 {
+    width: 347px;
+    height: 35px;
+  }
+  .s1950 {
+    p {
+      width: 447px;
+    }
+    iframe {
+      width: 460px;
+    }
+    .lurja2 {
+      .whitebox {
+        width: 400px;
+        li {
+          font-size: 14px;
+        }
+      }
+      .images {
+        :first-child {
+          width: 400px;
+        }
+        .img1 {
+          width: 400px;
+          :first-child,
+          :last-child {
+            width: 200px;
+            height: 197px;
+          }
+        }
+      }
+    }
+    .firuzi {
+      padding: 2%;
+      width: 800px;
+      height: 133px;
+
+      h1 {
+        font-size: 20px;
+      }
+
+      img {
+        width: 90px;
+        height: 90px;
+      }
+      a {
+        width: 160px;
+
+        font-size: 14px;
+      }
+    }
+  }
+  .about-us {
+    .text {
+      width: 540px;
+      h2 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+  .news {
+    padding-top: 8%;
+
+    h1 {
+      font-size: 50px;
+      padding-top: 3%;
+    }
+    .newscont {
+      img {
+        width: 23%;
+      }
+      .newsflex1 {
+        width: 30%;
+        height: 15rem;
+        .news2 {
+          width: 45%;
+          p {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+  .greenbox {
+    li {
+      font-size: 14px;
+
+      img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+    :first-child {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (max-width: 920px) {
+  .s1950 {
+    @include cl;
+    padding-top: 3%;
+    .m1955 {
+      @include cl;
+      gap: 45px;
+      .lurja2 {
+        align-self: center;
+      }
+    }
+    .firuzi {
+      padding: 2%;
+      width: 650px;
+      height: 133px;
+
+      h1 {
+        font-size: 18px;
+      }
+
+      img {
+        width: 60px;
+        height: 60px;
+      }
+      a {
+        width: 130px;
+      }
+    }
+  }
+  .sec3 {
+    padding-top: 13%;
+  }
+}
+
+@media (max-width: 768px) {
+  .c2 {
+    @include cfs;
+    gap: 60px;
+    a {
+      align-self: baseline;
+    }
+    .c3 {
+      :first-child {
+        font-size: 70px;
+      }
+      :last-child {
+        font-size: 50px;
+      }
+    }
+  }
+  .sm {
+    padding: 6%;
+    .c5 {
+      @include cl;
+      gap: 30px;
+      div {
+        width: 180px;
+        height: 250px;
+      }
+    }
+  }
+  .about-us {
+    .about {
+      @include cl;
+      gap: 20px;
+      padding-top: 3%;
+    }
+    .pic {
+      @include cl;
+    }
+    .text {
+      width: 540px;
+      h2 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .news {
+  padding-top: 10%;
+    .newscont {
+        @include cl;
+        gap:15px;
+        .newsflex1 {
+            width: 60%;
+        }
+      }
+  }
+ 
+}

@@ -85,9 +85,124 @@ header {
   }
 }
 
+// .sm {
+//   width: 100%;
+//   height: 900px;
+//   background: linear-gradient(#00beac, #00beac00);
+//   font-family: "ALK Life", sans-serif;
+//   .c4 {
+//     @include cl;
+
+//     padding-top: 8%;
+//     :first-child {
+//       font-size: 50px;
+//       color: #ffc700;
+//       font-style: italic;
+//     }
+//     :nth-child(2) {
+//       font-size: 80px;
+//       color: #fff;
+//     }
+//     :last-child {
+//       width: 670px;
+//       font-size: 18px;
+//       color: #044641;
+//       text-align: center;
+//       font-weight: 400;
+//       line-height: normal;
+//       padding-top: 2%;
+//     }
+//   }
+//   .c5 {
+//     @include se;
+//     padding-top: 5%;
+//     div {
+//       width: 230px;
+//       height: 350px;
+//       border-radius: 10px;
+//       @include cl;
+//     }
+//     a:link {
+//       color: white;
+//     }
+//     a:visited {
+//       color: white;
+//     }
+
+//     .a1 {
+//       transition: transform 0.4s;
+//       background-image: url(../images/50.jpg);
+//       @include bckcenter;
+//     }
+//     .a1:hover {
+//       @include cursor;
+//     }
+
+//     .a2 {
+//       transition: transform 0.4s;
+//       background-image: url(../images/60.jpg);
+//       background-position: right;
+//       @include bckcenter;
+//     }
+//     .a2:hover {
+//       @include cursor;
+//     }
+//     .a3 {
+//       transition: transform 0.4s;
+//       background-image: url(../images/70.jpg);
+//       @include bckcenter;
+//     }
+//     .a3:hover {
+//       @include cursor;
+//     }
+//     .a4 {
+//       transition: transform 0.4s;
+//       background-image: url(../images/80.jpg);
+//       @include bckcenter;
+//     }
+//     .a4:hover {
+//       @include cursor;
+//     }
+//     p {
+//       font-size: 30px;
+//       font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+//         "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+//     }
+//     .c6 {
+//       @include year;
+//       background-color: #f9db62;
+//     }
+//     .c7 {
+//       @include year;
+//       background-color: #1da7bc;
+//     }
+//     .c8 {
+//       @include year;
+//       background-color: #c7dff5;
+//     }
+//     .c9 {
+//       @include year;
+//       background-color: #ba414a;
+//     }
+//   }
+// }
+
+
+
+
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .sm {
   width: 100%;
   height: 900px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00beac), to(#00beac00));
+  background: -o-linear-gradient(#00beac, #00beac00);
   background: linear-gradient(#00beac, #00beac00);
   font-family: "ALK Life", sans-serif;
   .c4 {
@@ -130,7 +245,11 @@ header {
     }
 
     .a1 {
+      -webkit-transition: -webkit-transform 0.4s;
+      transition: -webkit-transform 0.4s;
+      -o-transition: transform 0.4s;
       transition: transform 0.4s;
+      transition: transform 0.4s, -webkit-transform 0.4s;
       background-image: url(../images/50.jpg);
       @include bckcenter;
     }
@@ -139,7 +258,11 @@ header {
     }
 
     .a2 {
+      -webkit-transition: -webkit-transform 0.4s;
+      transition: -webkit-transform 0.4s;
+      -o-transition: transform 0.4s;
       transition: transform 0.4s;
+      transition: transform 0.4s, -webkit-transform 0.4s;
       background-image: url(../images/60.jpg);
       background-position: right;
       @include bckcenter;
@@ -148,7 +271,11 @@ header {
       @include cursor;
     }
     .a3 {
+      -webkit-transition: -webkit-transform 0.4s;
+      transition: -webkit-transform 0.4s;
+      -o-transition: transform 0.4s;
       transition: transform 0.4s;
+      transition: transform 0.4s, -webkit-transform 0.4s;
       background-image: url(../images/70.jpg);
       @include bckcenter;
     }
@@ -156,7 +283,11 @@ header {
       @include cursor;
     }
     .a4 {
+      -webkit-transition: -webkit-transform 0.4s;
+      transition: -webkit-transform 0.4s;
+      -o-transition: transform 0.4s;
       transition: transform 0.4s;
+      transition: transform 0.4s, -webkit-transform 0.4s;
       background-image: url(../images/80.jpg);
       @include bckcenter;
     }
@@ -186,6 +317,13 @@ header {
     }
   }
 }
+
+
+
+
+
+
+
 .topimg {
   @include bckim;
   background-image: url(../images/50.jpg);
@@ -506,7 +644,7 @@ header {
 }
 
 .about-us {
-  height: 100vh;
+  // height: 100vh;
   width: 100%;
   padding-top: 10%;
   background: linear-gradient(#00beac, #00beac00);
@@ -582,6 +720,7 @@ header {
     }
   }
 }
+
 .greenbox {
   width: 100%;
   height: 300px;

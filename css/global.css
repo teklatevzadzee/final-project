@@ -157,6 +157,12 @@ header {
   padding: 20px;
 }
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
 .sm {
   width: 100%;
   height: 900px;
@@ -804,7 +810,6 @@ header {
 }
 
 .about-us {
-  height: 100vh;
   width: 100%;
   padding-top: 10%;
   background: linear-gradient(#00beac, rgba(0, 190, 172, 0));
@@ -922,4 +927,231 @@ header {
   font-weight: 900;
   font-size: 20px;
   margin-bottom: 20px;
+}
+
+@media (max-width: 1024px) {
+  .c1 .burgerbar {
+    display: block;
+  }
+  .c1 ul {
+    display: none;
+  }
+  .c2 .c3 :first-child {
+    font-size: 80px;
+  }
+  .c2 .c3 :last-child {
+    font-size: 60px;
+  }
+  .sm {
+    padding: 3%;
+    height: auto;
+  }
+  .sm .c4 {
+    padding-top: 8%;
+  }
+  .sm .c4 :first-child {
+    font-size: 50px;
+  }
+  .sm .c4 :nth-child(2) {
+    font-size: 60px;
+  }
+  .sm .c4 :last-child {
+    width: 570px;
+    font-size: 15px;
+  }
+  .sm .c5 {
+    flex-wrap: wrap;
+  }
+  .sm .c5 div {
+    width: 180px;
+    height: 250px;
+  }
+  .list1,
+  .list2 {
+    width: 347px;
+    height: 35px;
+  }
+  .s1950 p {
+    width: 447px;
+  }
+  .s1950 iframe {
+    width: 460px;
+  }
+  .s1950 .lurja2 .whitebox {
+    width: 400px;
+  }
+  .s1950 .lurja2 .whitebox li {
+    font-size: 14px;
+  }
+  .s1950 .lurja2 .images :first-child {
+    width: 400px;
+  }
+  .s1950 .lurja2 .images .img1 {
+    width: 400px;
+  }
+  .s1950 .lurja2 .images .img1 :first-child,
+  .s1950 .lurja2 .images .img1 :last-child {
+    width: 200px;
+    height: 197px;
+  }
+  .s1950 .firuzi {
+    padding: 2%;
+    width: 800px;
+    height: 133px;
+  }
+  .s1950 .firuzi h1 {
+    font-size: 20px;
+  }
+  .s1950 .firuzi img {
+    width: 90px;
+    height: 90px;
+  }
+  .s1950 .firuzi a {
+    width: 160px;
+    font-size: 14px;
+  }
+  .about-us .text {
+    width: 540px;
+  }
+  .about-us .text h2 {
+    font-size: 30px;
+  }
+  .about-us .text p {
+    font-size: 16px;
+  }
+  .news {
+    padding-top: 8%;
+  }
+  .news h1 {
+    font-size: 50px;
+    padding-top: 3%;
+  }
+  .news .newscont img {
+    width: 23%;
+  }
+  .news .newscont .newsflex1 {
+    width: 30%;
+    height: 15rem;
+  }
+  .news .newscont .newsflex1 .news2 {
+    width: 45%;
+  }
+  .news .newscont .newsflex1 .news2 p {
+    font-size: 18px;
+  }
+  .greenbox li {
+    font-size: 14px;
+  }
+  .greenbox li img {
+    width: 20px;
+    height: 20px;
+  }
+  .greenbox :first-child {
+    font-size: 18px;
+  }
+}
+@media (max-width: 920px) {
+  .s1950 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+  }
+  .s1950 .m1955 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+  }
+  .s1950 .m1955 .lurja2 {
+    align-self: center;
+  }
+  .s1950 .firuzi {
+    padding: 2%;
+    width: 650px;
+    height: 133px;
+  }
+  .s1950 .firuzi h1 {
+    font-size: 18px;
+  }
+  .s1950 .firuzi img {
+    width: 60px;
+    height: 60px;
+  }
+  .s1950 .firuzi a {
+    width: 130px;
+  }
+  .sec3 {
+    padding-top: 13%;
+  }
+}
+@media (max-width: 768px) {
+  .c2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 60px;
+  }
+  .c2 a {
+    align-self: baseline;
+  }
+  .c2 .c3 :first-child {
+    font-size: 70px;
+  }
+  .c2 .c3 :last-child {
+    font-size: 50px;
+  }
+  .sm {
+    padding: 6%;
+  }
+  .sm .c5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .sm .c5 div {
+    width: 180px;
+    height: 250px;
+  }
+  .about-us .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 3%;
+  }
+  .about-us .pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-us .text {
+    width: 540px;
+  }
+  .about-us .text h2 {
+    font-size: 30px;
+  }
+  .about-us .text p {
+    font-size: 16px;
+  }
+  .news {
+    padding-top: 10%;
+  }
+  .news .newscont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  .news .newscont .newsflex1 {
+    width: 60%;
+  }
 }/*# sourceMappingURL=global.css.map */
