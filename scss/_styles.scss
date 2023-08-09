@@ -84,120 +84,6 @@ header {
     padding: 20px;
   }
 }
-
-// .sm {
-//   width: 100%;
-//   height: 900px;
-//   background: linear-gradient(#00beac, #00beac00);
-//   font-family: "ALK Life", sans-serif;
-//   .c4 {
-//     @include cl;
-
-//     padding-top: 8%;
-//     :first-child {
-//       font-size: 50px;
-//       color: #ffc700;
-//       font-style: italic;
-//     }
-//     :nth-child(2) {
-//       font-size: 80px;
-//       color: #fff;
-//     }
-//     :last-child {
-//       width: 670px;
-//       font-size: 18px;
-//       color: #044641;
-//       text-align: center;
-//       font-weight: 400;
-//       line-height: normal;
-//       padding-top: 2%;
-//     }
-//   }
-//   .c5 {
-//     @include se;
-//     padding-top: 5%;
-//     div {
-//       width: 230px;
-//       height: 350px;
-//       border-radius: 10px;
-//       @include cl;
-//     }
-//     a:link {
-//       color: white;
-//     }
-//     a:visited {
-//       color: white;
-//     }
-
-//     .a1 {
-//       transition: transform 0.4s;
-//       background-image: url(../images/50.jpg);
-//       @include bckcenter;
-//     }
-//     .a1:hover {
-//       @include cursor;
-//     }
-
-//     .a2 {
-//       transition: transform 0.4s;
-//       background-image: url(../images/60.jpg);
-//       background-position: right;
-//       @include bckcenter;
-//     }
-//     .a2:hover {
-//       @include cursor;
-//     }
-//     .a3 {
-//       transition: transform 0.4s;
-//       background-image: url(../images/70.jpg);
-//       @include bckcenter;
-//     }
-//     .a3:hover {
-//       @include cursor;
-//     }
-//     .a4 {
-//       transition: transform 0.4s;
-//       background-image: url(../images/80.jpg);
-//       @include bckcenter;
-//     }
-//     .a4:hover {
-//       @include cursor;
-//     }
-//     p {
-//       font-size: 30px;
-//       font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-//         "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-//     }
-//     .c6 {
-//       @include year;
-//       background-color: #f9db62;
-//     }
-//     .c7 {
-//       @include year;
-//       background-color: #1da7bc;
-//     }
-//     .c8 {
-//       @include year;
-//       background-color: #c7dff5;
-//     }
-//     .c9 {
-//       @include year;
-//       background-color: #ba414a;
-//     }
-//   }
-// }
-
-
-
-
-
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 .sm {
   width: 100%;
   height: 900px;
@@ -387,6 +273,7 @@ header {
   }
 }
 .s1950 {
+ 
   overflow: hidden;
   padding-left: 2%;
   padding-right: 2%;
@@ -553,7 +440,7 @@ header {
     height: 25%;
     @include sb;
     img {
-      width: 6%;
+      width: 12%;
       height: 59%;
     }
   }
@@ -571,6 +458,11 @@ header {
     height: 60%;
     @include cfs;
     justify-content: space-between;
+  }
+  .map {
+    iframe {
+border-radius: 5px;
+    }
   }
 }
 .sec3 {
